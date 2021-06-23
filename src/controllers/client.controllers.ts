@@ -18,8 +18,6 @@ class ClientControllers {
 
 		const results = await client.index();
 
-		await client.data();
-
 		return response.json(results.data);
 	}
 
